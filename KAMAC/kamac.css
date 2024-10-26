@@ -1,0 +1,55 @@
+body {
+ margin: 25px;
+}
+header {
+  background-color: ghostwhite;
+  border: none;
+  border-bottom: 1.5px solid #40798c;
+  padding: 15px 15px 15px 15px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*These styles are for header one*/
+.header-button {
+  padding: 20px 30px 20px 30px;
+  margin: 4px 8px 6px 8px;
+  border: none;
+  border-radius: 2px;
+  background-color: #40798c;
+  color: ghostwhite;
+  cursor: pointer;
+  font-weight: bold;
+}
+#search-box {
+  height: 60px;
+  border: 1px solid rgba(220, 220, 220, 0.5);
+}
+#voice-button, #search-button {
+  padding: 14px 14px 14px 14px;
+  width: 56px;
+  background-color: rgba(220, 220, 220, 0.5);
+}
+#voice-button {
+  border-radius: 28px;
+}
+
+/*These styles are for header two*/
+.header-two-button {
+  padding: 10px 30px 10px 30px;
+  margin: 0px 8px 0px 8px;
+  border: none;
+  border-radius: 2px;
+  background-color: #40798c;
+  color: ghostwhite;
+  cursor: pointer;
+  font-weight: bold;
+}
+/*These styles are for the body*/
+#title-image {
+  border: 1px solid #40798c;
+  margin: 25px 0px 0px 0px;
+}
